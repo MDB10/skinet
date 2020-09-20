@@ -5,7 +5,7 @@ namespace API.Helpers
 {
     public class Pagination<T> where T : class
     {
-        private int totalItems;
+        //private int totalItems;
         //private IReadOnlyList<ProductToReturnDto> data;
 
         public Pagination(int pageIndex, int pageSize, int Count, IReadOnlyList<T> data)
