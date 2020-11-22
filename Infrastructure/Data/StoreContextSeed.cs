@@ -21,7 +21,7 @@ namespace Infrastructure.Data
                     var  brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
                     foreach(var item in brands)
                     {
-                        context.ProductBrands.Add(item);
+                        context.ProductBrands.Add(item);  
                     }
                     await context.SaveChangesAsync(); 
                 }
